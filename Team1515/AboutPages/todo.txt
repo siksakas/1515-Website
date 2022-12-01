@@ -1,0 +1,7 @@
+1. Organize (Put images in their own folders)
+2. Write descriptions (vincent job)
+3. Start the about page
+4. Finish homepage
+5. Fix card background
+6. Thqnk our former mentors
+7. Get rid of excess CSS
