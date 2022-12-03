@@ -4492,6 +4492,7 @@ body.dark-theme {
   display: flex;
   position: relative;
   background-color: rgba(33, 37, 41, 0.93) !important; 
+  padding:  0;
 }
 .about-section .about-section-info {
   padding: 0;
@@ -4514,8 +4515,8 @@ body.dark-theme {
   position: absolute;
   right: 0;
   background-color: rgba(33, 37, 41, 0.93);
-  height: 279.21px;
-  i
+  height: 337.59px;
+  
 }
 
 
