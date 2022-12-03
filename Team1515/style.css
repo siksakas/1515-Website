@@ -4491,7 +4491,6 @@ body.dark-theme {
 .about-section-item {
   display: flex;
   position: relative;
-  padding: 57px 0;
   background-color: rgba(33, 37, 41, 0.93) !important; 
 }
 .about-section .about-section-info {
