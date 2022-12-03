@@ -4491,11 +4491,13 @@ body.dark-theme {
 .about-section-item {
   display: flex;
   position: relative;
+  padding: 57px 0;
+  background-color: rgba(33, 37, 41, 0.93) !important; 
 }
 .about-section .about-section-info {
   padding: 0;
-  clip-path: polygon(0 0, 90% 0%, 90% 100%, 0 100%);
-  background-color: #0056b3;
+  clip-path: polygon(0 0, 95% 0%, 95% 100%, 0 100%);
+  background-color: rgba(33, 37, 41, 0.93);
   width: 100%;
   padding: 100px 0;
 }
@@ -4503,21 +4505,24 @@ body.dark-theme {
 .about-section .about-section-info:nth-child(2n + 2) {
   border: none;
   border-left: 3px solid #fff;
-  clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(30% 0, 100% 0%, 100% 100%, 28% 100%);
 
 
 }
 
 .about-section-img {
-  clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(5% 0, 100% 0%, 100% 100%, 0% 100%);
   position: absolute;
   right: 0;
-
+  background-color: rgba(33, 37, 41, 0.93);
+  height: 279.21px;
+  i
 }
+
 
 .about-section-item:nth-child(2n+2) .about-section-img {
   left: 0;
-  clip-path: polygon(0 0, 90% 0%, 90% 100%, 0 100%);
+  clip-path: polygon(0 0, 90% 0%, 84% 100%, 0 100%);
   
 
 }
