@@ -4312,3 +4312,7 @@ body.dark-theme {
 .about-section-img img {
   object-fit: cover;
 } */
+
+body{
+  overflow-x: hidden;
+}
