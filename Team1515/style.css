@@ -4316,3 +4316,31 @@ body.dark-theme {
 body{
   overflow-x: hidden;
 }
+.row{
+display: !important; grid; 
+justify-content: center;
+align-items: center;
+padding: 0;
+}
+.col{
+  padding: 10px 10px 10px 0;
+  margin:0 !important;
+}
+.row img{
+  
+  height: 300px;
+  width: 100%;
+}
+.first {
+  background-color: #F2A840;
+}
+.second {
+  background-color: #EA9010;
+}
+.third {
+  background-color: #BF750D;
+}
+.no-padding{
+  padding:0 !important;
+}
+
