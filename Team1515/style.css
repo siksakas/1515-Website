@@ -4488,7 +4488,7 @@ body.dark-theme {
   overflow: hidden;
   display: flex;
 }
-.about-section-item {
+/* .about-section-item {
   display: flex;
   position: relative;
   background-color: rgba(33, 37, 41, 0.93) !important; 
@@ -4528,4 +4528,4 @@ body.dark-theme {
 }
 .about-section-img img {
   object-fit: cover;
-}
+} */
