@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700");
+4@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -3224,7 +3224,7 @@ a:hover {
   min-height: 600px;
   text-align: center;
   color: #fff;
-  background-image: url(./images/Image1.png);
+  background-image: url(./images/chazzwithaheart.JPG);
   background-size: cover;
   background-position: center;
   -webkit-transition: .2s;
@@ -3425,3 +3425,7 @@ body.dark-theme {
   object-fit: cover;
 } */
 
+a{
+  text-decoration: none;
+  color: white;
+}
