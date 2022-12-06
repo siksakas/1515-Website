@@ -3383,3 +3383,7 @@ body.dark-theme {
   overflow: hidden;
   display: flex;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
