@@ -304,12 +304,11 @@ body {
 }
 .col {
   padding: 10px 10px 10px 0;
-  margin: 0 ;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 .lol img {
   height: 350px;
@@ -335,7 +334,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Open Sans", sans-serif;
   padding: 30px 20px;
-  text-indent: 30px
+  text-indent: 30px;
 }
 
 .footer {
@@ -374,57 +373,53 @@ body {
   background-color: #282828;
 }
 
-
-.btn1{
-
-font-family: Roboto, sans-serif;
-font-weight: 399;
-font-size: 18px;
-color: #fff;
-background-color: #ff984a00;
-padding: 10px 30px;
-border: solid #ffffff 2px;
-box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-border-radius: 1px;
-transition : 346ms;
-transform: translateY(0);
-display: flex;
-flex-direction: row;
-align-items: center;
-cursor: pointer;
-text-transform: lowercase;
+.btn1 {
+  font-family: Roboto, sans-serif;
+  font-weight: 399;
+  font-size: 18px;
+  color: #fff;
+  background-color: #ff984a00;
+  padding: 10px 30px;
+  border: solid #ffffff 2px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 1px;
+  transition: 346ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-transform: lowercase;
 }
 
-.btn1:hover{
-
-transition : 346ms;
-padding: 10px 35px;
-transform : translateY(-0px);
-background-color: #f4a261;
-color: #ffffff;
-border: solid 2px #ffffff;
+.btn1:hover {
+  transition: 346ms;
+  padding: 10px 35px;
+  transform: translateY(-0px);
+  background-color: #f4a261;
+  color: #ffffff;
+  border: solid 2px #ffffff;
 }
-hr{
+hr {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
   background: white;
   width: 200px;
   height: 2px;
-  
-  
 }
-a{
+a {
   text-decoration: none !important;
 }
-.reveal{
+.reveal {
   position: relative;
-  transform: translateY(150px);
+  transform: translateY(100px);
   opacity: 0;
-  transition: 0.4s all ease;
+  transition: 0.75s all ease-in-out;
 }
 
-.reveal.active{
+.reveal.active {
   transform: translateY(0);
   opacity: 1;
 }
