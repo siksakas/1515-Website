@@ -314,6 +314,7 @@ body {
   height: 350px;
   width: 100%;
 }
+
 .first {
   background-color: #f0882c;
 }
@@ -334,7 +335,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Open Sans", sans-serif;
   padding: 30px 20px;
-  text-indent: 30px;
+  text-align: center;
 }
 
 .footer {
@@ -409,20 +410,78 @@ hr {
   width: 200px;
   height: 2px;
 }
-a {
+.reveal a {
   text-decoration: none !important;
 }
 .reveal {
   position: relative;
-  transform: translateY(100px);
+  transform: translateX(-100px);
   opacity: 0;
-  transition: 0.6s all ease-in-out;
+  transition: 0.5s all ease-in-out;
 }
-
+.reveal:nth-child(2n+2){
+transform: translateX(100px) ;
+}
 .reveal.active {
-  transform: translateY(0);
+  transform: translateX(0);
   opacity: 1;
 }
 .row>*{
   padding: 0px !important;
+}
+
+@media(max-width: 900px) {
+  .lol img{
+    height: 250px;
+  }
+  .card-text{
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .card-title{
+    font-size: 24px;
+  }
+  .btn1{
+    font-size:15px ;
+    padding: 10px 20px;
+
+  }
+  hr{
+    margin-top: 10px ;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 695px) {
+  .lol{
+    position: relative;
+  }
+  .reveal{
+    position: absolute;
+    height: 100%;
+  }
+  .lol .col-5{
+    width: 100%;
+    
+  }
+  .lol img{
+    height: 350px;
+  }
+  .lol::before{
+    content:"";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.418);
+  }
+}
+@media(max-width) {
+  .card-text{
+    font-size: 12px;
+  }  
+}
+.und {
+text-decoration: white, underline;
 }
