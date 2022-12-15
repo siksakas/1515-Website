@@ -1,3 +1,30 @@
+.btn-container{
+  margin: auto;
+  height:44px;
+  width:166.23px;
+
+}
+#text{
+	display:none;
+	}
+a:active{
+  color:#ffd323;
+}
+button{
+  user-select:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  cursor:pointer;
+  border:none;
+  padding:8px;
+  font-size:20px;
+  background:#282828;
+  color:white;
+  font-family:cursive;
+  box-sizing:border-box;
+}
+
 h1 {
 	margin-top: 0;
 	font-size: 3rem;
@@ -126,14 +153,14 @@ h1 {
 	font-weight: 700;
 	color: #4e5052;
 	letter-spacing: 1px;
-	text-transform: capitalize;
 	margin-bottom: 5px;
   }
   .our-team .post {
 	display: block;
 	font-size: 15px;
 	color: #4e5052;
-	text-transform: capitalize;
+	padding-left: 10%;
+    padding-right: 10%;
   }
   .our-team .social {
 	width: 100%;
