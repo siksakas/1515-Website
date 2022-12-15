@@ -414,22 +414,6 @@
     width: 200px;
     height: 2px;
   }
-  .reveal a {
-    text-decoration: none !important;
-  }
-  .reveal {
-    position: relative;
-    transform: translateX(-100px);
-    opacity: 0;
-    transition: 0.5s all ease-in-out;
-  }
-  .reveal:nth-child(2n+2){
-  transform: translateX(100px) ;
-  }
-  .reveal.active {
-    transform: translateX(0);
-    opacity: 1;
-  }
   .row>*{
     padding: 0px !important;
   }
@@ -445,11 +429,6 @@
     }
     .card-title{
       font-size: 24px;
-    }
-    .btn1{
-      font-size:15px ;
-      padding: 10px 20px;
-  
     }
     hr{
       margin-top: 10px ;
@@ -478,7 +457,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      background-color: rgba(0, 0, 0, 0.418);
+      background-color: rgba(0, 0, 0, 0.6);
     }
   }
   @media(max-width) {
