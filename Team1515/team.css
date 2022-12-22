@@ -91,11 +91,11 @@ h1 {
   }
   
   .our-team .pic {
-	display: inline-block;
+	/* display: inline-block;
 	width: 230px;
 	height: 100%;
 	z-index: 1;
-	position: relative;
+	position: relative; */
   }
   .our-team .pic:before {
 	content: "";
@@ -126,9 +126,6 @@ h1 {
 	left: 0;
 	z-index: 1;
 	transition: all 0.3s linear 0s;
-  }
-  .our-team:hover .pic:after {
-
   }
   .our-team .pic img {
 	width: 100%;
@@ -193,4 +190,17 @@ h1 {
 	.our-team {
 	  margin-bottom: 10px;
 	}
+  }
+  .col-lg-3 col-md-6 col-sm-6{
+	display: flex !important;
+  }
+  .row{
+	align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .iwannaflex{
+	display: flex;
+	justify-content: center;
+    align-items: center;
   }
