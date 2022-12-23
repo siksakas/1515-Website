@@ -85,6 +85,7 @@ h1 {
 	position: relative;
 	border-bottom: 5px solid #f0602c;
 	border-radius: 2%;
+	margin: 10px 0;
   }
   .our-team:hover {
 	border-bottom: 5px solid #2f2f2f;
