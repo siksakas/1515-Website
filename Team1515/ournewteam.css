@@ -1,5 +1,5 @@
 :root{
-  bg-color:#282828;
+
 }
 * {
   box-sizing: border-box;
@@ -277,6 +277,26 @@
   flex-direction: row;
   align-items: center;
 }
-.card{
-  margin: 10px 15px ;
+
+.card-text{
+  font-size: 14px;
+  text-align: center;
+  color: black;
 }
+.card-title{
+  text-align: center;
+
+}
+@media (max-width:770px) {
+   .person{
+
+  }
+} 
+
+.person {
+  margin: 10px 15px ;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+    height: 350px  ;
+} 
