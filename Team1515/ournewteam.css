@@ -21,3 +21,11 @@ body{
 .col{
   display: flex;
 }
+#more {
+  display: none;
+}
+.text{
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
