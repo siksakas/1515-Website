@@ -10,9 +10,7 @@
 
     <!-- Hi Guys -->
 	<link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="sponsors.css">
-    <link rel="stylesheet" href="fade.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.5/dist/flowbite.min.css" /> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" class="dark-theme">
@@ -31,7 +29,7 @@
             </li>
         </ul>
     </nav><!-- end of page navbar -->
-
+    
 
     <!-- page header -->
     <header class="header ff" style="min-height: 300px; height: 0%;">
@@ -43,39 +41,72 @@
     </header><!-- end of page header -->
 
     <!-- page container -->
-    <div class="row">
-        <div class="col">
-            <div class="container text-center ">
-                <div class="card" onclick="this.classList.toggle('expanded')">
-                <img class="label" src="Sponsors/Ohana & Co.png" >
-                    <div class="text2">
-                      <div class="text-content">
-                        <h1 class="title">Ohana & Co</h1>
-                        <div class="body-text">Ohana & Co. is an investment banking firm. Ohana & Co. assists public companies, private equity firms and entrepreneurs in their mergers & acquisitions (M&A) transactions.
-                        </div>
-                      </div>
-                    </div>
-                    <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5"/></svg>
-                 </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="container text-center ">
-                <div class="card" onclick="this.classList.toggle('expanded')">
-                <img class="label" src="Sponsors/ghlogo.png" style="width: calc(300px + (45 - 25) * ((100vw - 300px) / (1300 - 300))); padding-top:calc(30px + (45 - 25) * ((100vw - 300px) / (1300 - 300)));">
-                    <div class="text2">
-                      <div class="text-content">
-                        <h1 class="title">Gene Haas Foundation</h1>
-                        <div class="body-text">The Gene Haas Foundation offers grants to support manufacturing education and charitable organizations in local communities.
-                        </div>
-                      </div>
-                    </div>
-                    <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5"/></svg>
-                 </div>
-            </div>
-        </div>
-      </div>
     
+<div class="grid mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-2">
+    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700">
+        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            
+        </blockquote>
+        <figcaption class="flex items-center justify-center space-x-3">
+            <img class="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture">
+            <div class="space-y-0.5 font-medium dark:text-white text-left">
+                <div>Bonnie Green</div>
+                <div class="text-sm font-light text-gray-500 dark:text-gray-400">Developer at Open AI</div>
+            </div>
+        </figcaption>    
+    </figure>
+    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-tr-lg dark:bg-gray-800 dark:border-gray-700">
+        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Solid foundation for any project</h3>
+            <p class="my-4 font-light">Designing with Figma components that can be easily translated to the utility classes of Tailwind CSS is a huge timesaver!"</p>
+        </blockquote>
+        <figcaption class="flex items-center justify-center space-x-3">
+            <img class="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png" alt="profile picture">
+            <div class="space-y-0.5 font-medium dark:text-white text-left">
+                <div>Roberta Casas</div>
+                <div class="text-sm font-light text-gray-500 dark:text-gray-400">Lead designer at Dropbox</div>
+            </div>
+        </figcaption>    
+    </figure>
+    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-bl-lg md:border-b-0 md:border-r dark:bg-gray-800 dark:border-gray-700">
+        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Mindblowing workflow</h3>
+            <p class="my-4 font-light">Aesthetically, the well designed components are beautiful and will undoubtedly level up your next application."</p>
+        </blockquote>
+        <figcaption class="flex items-center justify-center space-x-3">
+            <img class="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="profile picture">
+            <div class="space-y-0.5 font-medium dark:text-white text-left">
+                <div>Jese Leos</div>
+                <div class="text-sm font-light text-gray-500 dark:text-gray-400">Software Engineer at Facebook</div>
+            </div>
+        </figcaption>    
+    </figure>
+    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-br-lg dark:bg-gray-800 dark:border-gray-700">
+        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Efficient Collaborating</h3>
+            <p class="my-4 font-light">You have many examples that can be used to create a fast prototype for your team."</p>
+        </blockquote>
+        <figcaption class="flex items-center justify-center space-x-3">
+            <img class="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png" alt="profile picture">
+            <div class="space-y-0.5 font-medium dark:text-white text-left">
+                <div>Joseph McFall</div>
+                <div class="text-sm font-light text-gray-500 dark:text-gray-400">CTO at Google</div>
+            </div>
+        </figcaption>    
+    </figure>
+</div>
+
+    <div class="w-full max-w-sm rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700" style="background:#262626;">
+        <a href="https://www.ohanaco.com/" taget="_blank">
+            <img class="p-8 rounded-t-lg" src="Sponsors/Ohana & Co.png" alt="product image" />
+        </a>
+        <div class="px-5 pb-5">
+                <h5 class="text-3xl font-semibold tracking-tight text-white dark:text-white">Ohana & Co</h5>
+            <div class="flex items-center justify-between">
+                <span class="text-xl text-white dark:text-white">Ohana & Co. is an investment banking firm. Ohana & Co. assists public companies, private equity firms and entrepreneurs in their mergers & acquisitions (M&A) transactions.</span>
+            </div>
+        </div>
+    </div>
     
     <!-- end of page container -->
 
