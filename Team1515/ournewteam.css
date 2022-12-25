@@ -1,4 +1,10 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
 .leaders-container .row{
   display: flex;
   align-content: center;
@@ -275,4 +281,10 @@ body{
   .footer span {
     display: none;
   }
+}
+#mrCastle{
+  padding-bottom: 90px ;
+}
+#chazz{
+  padding-bottom: 19px;
 }

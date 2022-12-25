@@ -332,7 +332,7 @@ body {
   padding: 100px 0px;
 }
 .card-text {
-  font-size: 18px;
+  font-size: 14px;
   font-family: "Montserrat", sans-serif;
   font-family: "Open Sans", sans-serif;
   padding: 30px 20px;
@@ -485,4 +485,7 @@ transform: translateX(100px) ;
 }
 .und {
 text-decoration: white, underline;
+}
+.card-text{
+  font-size: 16px;
 }
