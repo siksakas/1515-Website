@@ -8,11 +8,18 @@
 }
 .personCard{
   width: 250px;
+  padding: 30px 0 0 0;
+  background-color: #F0742C;
+  color: white;
 }
+.personCard h5{
+  color: white;
+}
+
 .personCard .pics{
-  aspect-ratio: 16/9;
-  width: 50%;
-  height: 175px;
+  
+  width: 55%;
+  height: 180px;
 }
 
 body{
@@ -26,7 +33,7 @@ body{
 }
 .text{
   padding: 10px;
-  color: black;
+  color: white;
   text-align: center;
 }
 .text.expand .more{
@@ -47,10 +54,10 @@ body{
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 110px;
+  height: 75px;
   -webkit-transition: all, 0.5s;
   transition: all, 0.5s;
-  background-color: #212529;
+  background-color: #282828;
 }
 
 
@@ -111,9 +118,10 @@ body{
   font-size: 14px;
 }
 .page-navbar .nav-navbar .nav-link img {
-  width: calc(95px + (45 - 25) * ((100vw - 300px) / (1300 - 300)));
+  width: calc(70px + (45 - 25) * ((100vw - 300px) / (1300 - 300)));
   display: block;
   margin: 0 auto;
+  
 }
 .page-navbar .nav-navbar .search {
   position: relative;
