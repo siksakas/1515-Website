@@ -1,9 +1,12 @@
+:root{
+  --cardHeight:100%
+  ;
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .leaders-container .row{
   display: flex;
@@ -13,19 +16,27 @@
   align-items: center;
 }
 .personCard{
-  width: 250px;
-  padding: 30px 0 0 0;
-  background-color: #F0742C;
-  color: white;
+  width: 400px;
+  height: var(--cardHeight) ;
+  padding: 50px 0 0 0;
+  background-color: white;
+  color: black;
+ 
+  border: double 8px #f4a261;
+  
+}
+.col{
+  border-radius: 10px;
 }
 .personCard h5{
-  color: white;
+  color: black;
 }
 
 .personCard .pics{
-  
+  border: double 12px #ec913c ;
+  border-radius: 20px;
   width: 55%;
-  height: 180px;
+  height: 260px;
 }
 
 body{
@@ -39,14 +50,17 @@ body{
 }
 .text{
   padding: 10px;
-  color: white;
+  color: black;
   text-align: center;
 }
 .text.expand .more{
   display: inline;
+  
 }
+
 .text.expand .dots{
   display: none;
+  
 }
 .dots{
   display: inline;
@@ -282,12 +296,9 @@ body{
     display: none;
   }
 }
-#mrCastle{
-  padding-bottom: 90px ;
-}
-#chazz{
-  padding-bottom: 19px;
-}
 .text{
-  font-size: 13px;
+  font-size: 14px;
+}
+#mrCastle{
+  padding-bottom: 43px ;
 }

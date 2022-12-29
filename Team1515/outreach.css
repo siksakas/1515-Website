@@ -459,6 +459,13 @@
       left: 0;
       background-color: rgba(0, 0, 0, 0.6);
     }
+    video{
+      display: none;
+    }
+    .no-image{
+      display: inline;
+      z-index: 2;
+    }
   }
   @media(max-width) {
     .card-text{
@@ -467,4 +474,12 @@
   }
   .und {
   text-decoration: white, underline;
+  }
+  .no-image{
+    display: none;
+  }
+  video{
+    display: inline;
+width: 250%;
+height: 355px;
   }
