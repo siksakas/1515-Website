@@ -21,19 +21,38 @@
   width: 400px;
   height: var(--cardHeight);
   padding: 50px 0 0 0 ;
-  background-color: whitesmoke;
-  color: black;
-  border: double 8px #f4a261;
+  background-color: #282828;
+  color: white;
+  border: 4px #cc7d3d;
+  border-style:solid; 
 }
 .col {
   border-radius: 10px;
 }
 .personCard h5 {
-  color: black;
+  color: white;
+}
+.header {
+  z-index: 990;
+  position: relative;
+  height: 100%;
+  min-height: 500px;
+  text-align: center;
+  color: #fff;
+  background-image: url(./images/team_photo.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+  font-weight: bold;
+  
 }
 
 .personCard .pics {
-  border: double 12px #d1803e;
+  border:  6px #d1803e;
+  border-style: outset;
   border-radius: 20px;
   width: 55%;
   height: 280px;
@@ -52,7 +71,7 @@ body {
 }
 .text {
   padding: 10px;
-  color: black;
+  color: white;
   text-align: center;
 }
 .text.expand .more {
