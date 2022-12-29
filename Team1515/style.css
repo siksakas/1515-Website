@@ -29,13 +29,6 @@
   --font-family-sans-serif: Century Gothic, sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-@font-face { font-family: Nexa-HeavyItalic; src: url('Nexa-HeavyItalic.ttf'); } 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 html {
   font-family: sans-serif;
   line-height: 1.15;
