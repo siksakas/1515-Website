@@ -18,7 +18,7 @@
   align-items: center;
 }
 .personCard {
-  width: 400px;
+  width: 410px;
   height: var(--cardHeight);
   padding: 50px 0 0 0 ;
   background-color: #282828;
@@ -316,5 +316,5 @@ body {
   font-size: 14px;
 }
 #mrCastle {
-  padding-bottom: 43px;
+  padding-bottom: 22px;
 }

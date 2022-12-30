@@ -475,11 +475,8 @@
   .und {
   text-decoration: white, underline;
   }
-  .no-image{
-    display: none;
-  }
   video{
-    display: inline;
-width: 250%;
-height: 355px;
+    height: 360px;
+    width: 680px;
+    margin: 0 0 -5PX 0;
   }
