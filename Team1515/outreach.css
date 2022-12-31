@@ -301,7 +301,7 @@
     padding: 0;
   }
   .col {
-    padding: 10px 10px 10px 0;
+    padding: 20px 10px 20px 0   ;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -436,35 +436,29 @@
     }
   }
   @media (max-width: 695px) {
-    .lol{
-      position: relative;
-    }
-    .reveal{
-      position: absolute;
-      height: 100%;
-    }
+
     .lol .col-5{
       width: 100%;
       
     }
     .lol img{
       height: 350px;
+      
     }
-    .lol::before{
-      content:"";
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-color: rgba(0, 0, 0, 0.6);
+
+    .vid{
+      border: none !important;
+      margin: 10px 0 0 0!important;
     }
     video{
-      display: none;
+      width: 100% !important;
+      height: 200px !important;
     }
-    .no-image{
-      display: inline;
-      z-index: 2;
+    #textbig{
+      padding: 0 30px 30px 30px !important;
+    }
+    .row{
+      padding: 0 0 50px 0 ;
     }
   }
   @media(max-width) {
@@ -476,7 +470,16 @@
   text-decoration: white, underline;
   }
   video{
-    height: 360px;
-    width: 680px;
-    margin: 0 0 -5PX 0;
+    height: 300px;
+    width: 100%;
+    margin-bottom: -6px;
+
   }
+  .vid{
+    margin: 30px 0 20px 0;
+    border-style: solid;
+    border-width: 3px;
+  }
+#textbig{
+  padding: 0px 200px 30px 200px;
+}
