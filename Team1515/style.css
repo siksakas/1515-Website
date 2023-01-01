@@ -3377,48 +3377,9 @@ body.dark-theme {
   overflow: hidden;
   display: flex;
 }
-/* .about-section-item {
-  display: flex;
-  position: relative;
-  background-color: rgba(33, 37, 41, 0.93) !important; 
-  padding:  0;
+.weneedpadding{
+  padding: 20px;
 }
-.about-section .about-section-info {
-  padding: 0;
-  clip-path: polygon(0 0, 95% 0%, 95% 100%, 0 100%);
-  background-color: rgba(33, 37, 41, 0.93);
-  width: 100%;
-  padding: 100px 0;
-}
-
-.about-section .about-section-info:nth-child(2n + 2) {
-  border: none;
-  border-left: 3px solid #fff;
-  clip-path: polygon(30% 0, 100% 0%, 100% 100%, 28% 100%);
-
-
-}
-
-.about-section-img {
-  clip-path: polygon(5% 0, 100% 0%, 100% 100%, 0% 100%);
-  position: absolute;
-  right: 0;
-  background-color: rgba(33, 37, 41, 0.93);
-  height: 337.59px;
-  
-}
-
-
-.about-section-item:nth-child(2n+2) .about-section-img {
-  left: 0;
-  clip-path: polygon(0 0, 90% 0%, 84% 100%, 0 100%);
-  
-
-}
-.about-section-img img {
-  object-fit: cover;
-} */
-
 a{
   text-decoration: none;
   color: white;
