@@ -35,11 +35,10 @@
 .header {
   z-index: 990;
   position: relative;
-  height: 100%;
-  min-height: 500px;
+  width:100%;
   text-align: center;
   color: #fff;
-  background-image: url(./images/team_photo.jpg);
+  background-image: url(./images/leadership.JPG);
   background-size: cover;
   background-position: center;
   -webkit-transition: 0.2s;
@@ -49,8 +48,8 @@
   font-weight: bold;
   
 }
-
 .personCard .pics {
+
   border:  6px #d1803e;
   border-style: outset;
   border-radius: 20px;
