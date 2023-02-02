@@ -18,6 +18,12 @@
       rel="stylesheet"
       href="https://unpkg.com/flowbite@1.5.5/dist/flowbite.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body
     data-spy="scroll"
@@ -35,7 +41,7 @@
         </li>
         <li class="nav-item">
           <a href="index.html" class="nav-link"
-            ><img src="images/MorTorq.png" />
+            ><img src="images/MorTorq.png" style="padding: 3%" />
           </a>
         </li>
         <li class="nav-item">
@@ -61,22 +67,31 @@
         </li>
       </ul>
     </nav>
-    <div class="container leaders-container" style="margin-top: 200px">
-      <h1
-        class="animate_animated animate_fadeInLeft leaders"
-        style="color: white; text-align: center; font-size: 34px; padding: 10px  ;"
-      >
-        Our Leadership
-      </h1>
+    <header class="header" style="height: 100%">
+      <div class="overlay"></div>
+      <div class="header-content">
+        <h1
+          class="header-title animate__animated animate__fadeIn"
+          style="font-size: 60px"
+        >
+          OUR <span style="color: #ff5f00">LEADERSHIP</span>
+        </h1>
+      </div>
+    </header>
+    <!-- end of page header -->
+    <div class="container leaders-container">
       <div class="row">
-        <div class="col" style="margin: 15px; min-width: 200px">
+        <div class="col" style="margin: 20px; min-width: 200px">
           <div
-            class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+            class="w-full max-w-sm bg-white shadow-md dark:bg-gray-800 dark:border-gray-700"
           >
-            <div class="flex flex-col personCard items-center pb-10">
+            <div
+              class="flex flex-col personCard items-center pb-10"
+              id="andrew"
+            >
               <img
                 class="w-24 h-24 mb-3 rounded shadow-lg pics"
-                src="./TeamPhotos/andrew.jpg"
+                src="./TeamPhotos/andrew_1500x1000.jpg"
                 alt="Bonnie image"
               />
               <h5
@@ -88,55 +103,33 @@
                 >President</span
               >
               <p class="text">
-                I am currently a Senior and am on my fourth year on the
-                robotics team. For the past couple years I have been a
-                programming specialist<span class="dots">...</span
-                ><span class="more"
-                  > developing code for the robot and
-                  teaching new students. I now am the President of the team,
-                  where I help lead multiple divisions and set a model for newer
-                  members. I enjoy working with such an amazing group of
-                  students and cannot wait to have an another great year with
-                  Mortorq.</span
+                I am currently a Senior and am on my fourth year on the robotics
+                team. For the past couple years I have been a programming
+                specialist<span class="dots">...</span
+                ><span class="more">
+                  developing code for the robot and teaching new students. I now
+                  am the President of the team, where I help lead multiple
+                  divisions and set a model for newer members. I enjoy working
+                  with such an amazing group of students and cannot wait to have
+                  an another great year with Mortorq.</span
                 >
               </p>
               <button class="expandbtn">Read more</button>
             </div>
           </div>
         </div>
-        <div class="col" style="margin: 15px; min-width: 200px">
+
+        <div class="col" style="margin: 20px; min-width: 200px">
           <div
-            class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+            class="w-full max-w-sm bg-white shadow-md dark:bg-gray-800 dark:border-gray-700"
           >
-            <div class="flex flex-col personCard items-center pb-10" id="mrCastle">
+            <div
+              class="flex flex-col personCard items-center pb-10"
+              id="cameron"
+            >
               <img
                 class="w-24 h-24 mb-3 rounded shadow-lg pics pics"
-                src="./TeamPhotos/castle.png"
-                alt="Bonnie image"
-              />
-              <h5
-                class="mb-1 text-xl font-medium text-gray-900 dark:text-white"
-              >
-                John R. Castle II
-              </h5>
-              <span class="text-sm text-white-500 dark:text-white-400"
-                >Robotics Teacher</span
-              >
-              <p class="text">
-                I have been with the team for 5 years. I am the guy who ensures we function like a well running machine.
-
-
-            </div>
-          </div>
-        </div>
-        <div class="col" style="margin: 15px; min-width: 200px">
-          <div
-            class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
-          >
-            <div class="flex flex-col personCard items-center pb-10">
-              <img
-                class="w-24 h-24 mb-3 rounded shadow-lg pics pics"
-                src="./TeamPhotos/cameron.jpg"
+                src="./TeamPhotos/cameron_1500x1000.jpg"
                 alt="Bonnie image"
               />
               <h5
@@ -148,29 +141,30 @@
                 >Vice President</span
               >
               <p class="text">
-               This is my fourth year on the robotics team. I'm currently the
-vice president, head of programming, and the head of web
-development <span class="dots">...</span
+                This is my fourth year on the robotics team. I'm currently the
+                vice president, head of programming, and the head of web
+                development <span class="dots">...</span
                 ><span class="more"
-                  >I've loved programming for a while and being on
-                  Mortorq has taught me many practical and real-world skills so I'm
-                  very grateful for FRC and Mortorq. I really enjoy leading the
-                  amazing students on our team and hope to help make this team the
-                  best it can.</span
+                  >I've loved programming for a while and being on Mortorq has
+                  taught me many practical and real-world skills so I'm very
+                  grateful for FRC and Mortorq. I really enjoy leading the
+                  amazing students on our team and hope to help make this team
+                  the best it can.</span
                 >
               </p>
               <button class="expandbtn">Read more</button>
             </div>
           </div>
         </div>
-        <div class="col" style="margin: 15px; min-width: 200px">
+
+        <div class="col" style="margin: 20px; min-width: 200px">
           <div
-            class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+            class="w-full max-w-sm bg-white shadow-md dark:bg-gray-800 dark:border-gray-700"
           >
             <div class="flex flex-col personCard items-center pb-10" id="chazz">
               <img
                 class="w-24 h-24 mb-3 rounded shadow-lg pics pics"
-                src="./TeamPhotos/chazz.jpg "
+                src="./TeamPhotos/chazz_1500x1000.jpg "
                 alt="Bonnie image"
               />
               <h5
@@ -183,31 +177,32 @@ development <span class="dots">...</span
               </span>
               <p class="text">
                 This is my 4th year on MorTorq and in FRC, and I am a senior.
-Previously, I was head pit tech. As build leader I ensure that all
-              mechanical aspects of the robot<span class="dots">...</span
+                Previously, I was head pit tech. As build leader I ensure that
+                all mechanical aspects <span class="dots">...</span
                 ><span class="more"
-                  >are in check, and that all build
-                  sub-teams are working in cohesion. This team is like my second
-                    family, and I am so grateful to be able to work alongside them. My
-                    favorite parts of FRC are the people involved and their robots.
-                    The diversity involved in both the people competing and their
-                    design choices is beautiful. &lt;3</span
+                  >of the robotare in check, and that all build sub-teams are
+                  working in cohesion. This team is like my second family, and I
+                  am so grateful to be able to work alongside them. My favorite
+                  parts of FRC are the people involved and their robots. The
+                  diversity involved in both the people competing and their
+                  design choices is beautiful. &lt;3</span
                 >
               </p>
               <button class="expandbtn">Read more</button>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col" style="margin: 15px; min-width: 200px">
+        <div class="col" style="margin: 20px; min-width: 200px">
           <div
-            class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+            class="w-full max-w-sm bg-white shadow-md dark:bg-gray-800 dark:border-gray-700"
           >
-            <div class="flex flex-col personCard items-center pb-10">
+            <div
+              class="flex flex-col personCard items-center pb-10"
+              id="odelia"
+            >
               <img
                 class="w-24 h-24 mb-3 rounded shadow-lg pics"
-                src="./TeamPhotos/odelia.jpg"
+                src="./TeamPhotos/odelia_1500x1000.jpg"
                 alt="Bonnie image"
               />
               <h5
@@ -220,28 +215,31 @@ Previously, I was head pit tech. As build leader I ensure that all
               >
               <p class="text">
                 I am a current junior and have been on this team for the past
-              three years. As machine specialist, I oversee the woodshop and
-              teach new members<span class="dots">...</span
+                three years. As machine specialist, I oversee the woodshop and
+                teach new members<span class="dots">...</span
                 ><span class="more"
-                  >about the machinery. From freshman year, I have
-                  loved everything mechanical and machinery, Being on MorTorq, I
-                  have learned a variety of skills, from using SolidWorks to leading
-                  a group of students. I look forward to the rest of the year and
-                  next year on this team! Go MorTorq!</span
+                  >about the machinery. From freshman year, I have loved
+                  everything mechanical and machinery, Being on MorTorq, I have
+                  learned a variety of skills, from using SolidWorks to leading
+                  a group of students. I look forward to the rest of the year
+                  and next year on this team! Go MorTorq!</span
                 >
               </p>
               <button class="expandbtn">Read more</button>
             </div>
           </div>
         </div>
-        <div class="col" style="margin: 15px; min-width: 200px">
+        <div class="col" style="margin: 20px; min-width: 200px">
           <div
-            class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+            class="w-full max-w-sm bg-white shadow-md dark:bg-gray-800 dark:border-gray-700"
           >
-            <div class="flex flex-col personCard items-center pb-10">
+            <div
+              class="flex flex-col personCard items-center pb-10"
+              id="kaylen"
+            >
               <img
                 class="w-24 h-24 mb-3 rounded shadow-lg pics"
-                src="./TeamPhotos/kaylen.jpg"
+                src="./TeamPhotos/kaylen_1500x1000.jpg"
                 alt="kaylen image"
               />
               <h5
@@ -254,29 +252,72 @@ Previously, I was head pit tech. As build leader I ensure that all
               >
               <p class="text">
                 This is my third year on the team. As electrical specialist, I
-              wire the robot to ensure Build can run the different components
-              they built<span class="dots">...</span
+                wire the robot to ensure Build can run the different components
+                they built<span class="dots">...</span
                 ><span class="more"
-                  >with the code Programers wrote. Electrical piqued my
-                  interest freshman year and since then I worked very hard to
-                  increase my knowledge. Mortorq has given me many opportunities
-                  from learning how to use power tools to developing my engineering
-                  and leadership skills. I have met so many amazing people through
-                  this program and hope to encourage more girls to join FIRST.</span
+                  >with the code Programers wrote. Electrical piqued my interest
+                  freshman year and since then I worked very hard to increase my
+                  knowledge. Mortorq has given me many opportunities from
+                  learning how to use power tools to developing my engineering
+                  and leadership skills. I have met so many amazing people
+                  through this program and hope to encourage more girls to join
+                  FIRST.</span
                 >
               </p>
               <button class="expandbtn">Read more</button>
             </div>
           </div>
         </div>
-        <div class="col" style="margin: 15px; min-width: 200px">
+        <div class="col" style="margin: 20px; min-width: 200px">
           <div
-            class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+            class="w-full max-w-sm bg-white shadow-md dark:bg-gray-800 dark:border-gray-700"
           >
-            <div class="flex flex-col personCard personCard items-center pb-10">
+            <div
+              class="flex flex-col personCard items-center pb-10"
+              id="arielle"
+            >
               <img
                 class="w-24 h-24 mb-3 rounded shadow-lg pics"
-                src="./TeamPhotos/rachel.jpg"
+                src="./TeamPhotos/ariella_1500x1000.jpg"
+                alt="Bonnie image"
+              />
+              <h5
+                class="mb-1 text-xl font-medium text-gray-900 dark:text-white"
+              >
+                Arielle Efron
+              </h5>
+              <span class="text-sm text-white-500 dark:text-white-400"
+                >Safety Capitan</span
+              >
+              <p class="text">
+                I am a sophomore and the Safety Captain of team 1515, and this
+                is my second year in robotics. As Safety Captain, I create and
+                enforce protocols<span class="dots">...</span
+                ><span class="more"
+                  >to ensure that the team is safe at all times. Safety is an
+                  absolute necessity and priority, and I hope to share my
+                  passion for FRC with anyone interested in educating themselves
+                  on how to further protect their team. I am also committed to
+                  encouraging more girls into joining FRC.
+                </span>
+              </p>
+              <button class="expandbtn">Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col" style="margin: 20px; min-width: 200px">
+          <div
+            class="w-full max-w-sm bg-white shadow-md dark:bg-gray-800 dark:border-gray-700"
+          >
+            <div
+              class="flex flex-col personCard personCard items-center pb-10"
+              id="rachel"
+            >
+              <img
+                class="w-24 h-24 mb-3 rounded shadow-lg pics"
+                src="./TeamPhotos/rachel_1500x1000.jpg"
                 alt="Bonnie image"
               />
               <h5
@@ -289,48 +330,53 @@ Previously, I was head pit tech. As build leader I ensure that all
               </span>
               <p class="text">
                 This is my third year with Team 1515. As CAD Specialist, I teach
-              students about Computer Aided Design (CAD) and help them develop
-              their skills<span class="dots">...</span
+                students about Computer Aided Design (CAD) and help them develop
+                their skills<span class="dots">...</span
                 ><span class="more"
-                  >on the Solidworks program. Thanks to the Robotics
-                  Program, I have developed skills in engineering, machinery,
-                  design, and leadership. I hope to continue teaching and
-                  encouraging more females, as well as many of those in the Arts
-                  departments, to join Robotics.</span
+                  >on the Solidworks program. Thanks to the Robotics Program, I
+                  have developed skills in engineering, machinery, design, and
+                  leadership. I hope to continue teaching and encouraging more
+                  females, as well as many of those in the Arts departments, to
+                  join Robotics.</span
                 >
               </p>
               <button class="expandbtn">Read more</button>
             </div>
           </div>
         </div>
-        <div class="col" style="margin: 15px; min-width: 200px">
+        <div class="col" style="margin: 20px; min-width: 200px">
           <div
-            class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+            class="w-full max-w-sm bg-white shadow-md dark:bg-gray-800 dark:border-gray-700"
           >
-            <div class="flex flex-col personCard items-center pb-10">
+            <div
+              class="flex flex-col personCard personCard items-center pb-10"
+              id="mrCastle"
+            >
               <img
                 class="w-24 h-24 mb-3 rounded shadow-lg pics"
-                src="./TeamPhotos/ariella.jpg"
+                src="./TeamPhotos/castle_1500x1000.png"
                 alt="Bonnie image"
               />
               <h5
                 class="mb-1 text-xl font-medium text-gray-900 dark:text-white"
               >
-                Arielle Efron
+                John R. Castle II
               </h5>
               <span class="text-sm text-white-500 dark:text-white-400"
-                >Safety Capitan</span
-              >
+                >Robotics Teacher
+              </span>
               <p class="text">
-                I am a sophomore and the Safety Captain of team 1515, and this is
-              my second year in robotics. As Safety Captain, I create and
-              enforce protocols<span class="dots">...</span
+                Hello! I am one of the science and engineering teachers here
+                at Beverly Hills High School. I have been a teacher at Beverly
+                Hills High since 2017.<span class="dots">..</span
                 ><span class="more"
-                  >to ensure that the team is safe at all times.
-                  Safety is an absolute necessity and priority, and I hope to share
-                  my passion for FRC with anyone interested in educating themselves
-                  on how to further protect their team. I am also committed to
-                  encouraging more girls into joining FRC.</span
+                  >  I completed my education at Portland
+                  State University in Portland Oregon. I majored in Organismal
+                  Biology (pre-med track and obtained a Master's of Education
+                  with a dual endorsement for Biology and Special Education. I
+                  have been teaching since 2009. This year I will be teaching
+                  Biology, Introduction to Engineering Design, and
+                  Robotics.</span
                 >
               </p>
               <button class="expandbtn">Read more</button>

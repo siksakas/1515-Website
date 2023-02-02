@@ -6,3 +6,9 @@
   height: 40vh !important;
   width: 100% !important;
 }
+.page-navbar .nav-navbar .nav-link img {
+  width: calc(70px + (45 - 25) * ((100vw - 300px) / (1300 - 300)));
+  display: block;
+  margin: 0 auto;
+  
+}

@@ -29,13 +29,6 @@
   --font-family-sans-serif: Century Gothic, sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-@font-face { font-family: Nexa-HeavyItalic; src: url('Nexa-HeavyItalic.ttf'); } 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -3243,8 +3236,8 @@ a:hover {
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: -webkit-radial-gradient(48% 42%, 140% 110%, rgba(33, 37, 41, 0.5), rgba(33, 37, 41, 0.6), rgba(33, 37, 41, 0.7), rgba(33, 37, 41, 0.8), rgba(33, 37, 41, 0.93), #212529 55%, #212529 200%);
-  background-image: radial-gradient(140% 110% at 48% 42%, rgba(33, 37, 41, 0.5), rgba(33, 37, 41, 0.6), rgba(33, 37, 41, 0.7), rgba(33, 37, 41, 0.8), rgba(33, 37, 41, 0.93), #212529 55%, #212529 200%);
+  background-image: -webkit-radial-gradient(48% 42%, 140% 110%, rgba(49, 53, 56, 0.5), rgba(33, 37, 41, 0.6), rgba(33, 37, 41, 0.7), rgba(33, 37, 41, 0.8), rgba(33, 37, 41, 0.93), #212529 55%, #212529 200%);
+  background-image: radial-gradient(140% 110% at 48% 42%, rgba(69, 70, 71, 0.322), rgba(33, 37, 41, 0.6), rgba(33, 37, 41, 0.7), rgba(33, 37, 41, 0.8), rgba(33, 37, 41, 0.93), #212529 55%, #212529 200%);
 }
 
 .header .header-content {
@@ -3384,48 +3377,9 @@ body.dark-theme {
   overflow: hidden;
   display: flex;
 }
-/* .about-section-item {
-  display: flex;
-  position: relative;
-  background-color: rgba(33, 37, 41, 0.93) !important; 
-  padding:  0;
+.weneedpadding{
+  padding: 0 20px;
 }
-.about-section .about-section-info {
-  padding: 0;
-  clip-path: polygon(0 0, 95% 0%, 95% 100%, 0 100%);
-  background-color: rgba(33, 37, 41, 0.93);
-  width: 100%;
-  padding: 100px 0;
-}
-
-.about-section .about-section-info:nth-child(2n + 2) {
-  border: none;
-  border-left: 3px solid #fff;
-  clip-path: polygon(30% 0, 100% 0%, 100% 100%, 28% 100%);
-
-
-}
-
-.about-section-img {
-  clip-path: polygon(5% 0, 100% 0%, 100% 100%, 0% 100%);
-  position: absolute;
-  right: 0;
-  background-color: rgba(33, 37, 41, 0.93);
-  height: 337.59px;
-  
-}
-
-
-.about-section-item:nth-child(2n+2) .about-section-img {
-  left: 0;
-  clip-path: polygon(0 0, 90% 0%, 84% 100%, 0 100%);
-  
-
-}
-.about-section-img img {
-  object-fit: cover;
-} */
-
 a{
   text-decoration: none;
   color: white;
