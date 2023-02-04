@@ -292,7 +292,11 @@ body {
 .footer .links a:first-child {
   margin-left: 0;
 }
-
+@media (max-width: 600px){
+.personCard{
+  width: 300px;
+}
+}
 @media (max-width: 991.98px) {
   .footer {
     -webkit-box-orient: vertical;
