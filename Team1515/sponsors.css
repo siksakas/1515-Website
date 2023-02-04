@@ -6,7 +6,6 @@ img{
   aspect-ratio: 4/3;
   image-rendering: optimizeSpeed;
   max-height: 400px;
-
   object-fit: contain;
 }
 .img1{
