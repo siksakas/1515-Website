@@ -1,9 +1,16 @@
 .img{
   height: 100% !important;
-  width: 40vm !important;
+  width: 100% !important;
+}
+img{
+  aspect-ratio: 4/3;
+  image-rendering: optimizeSpeed;
+  max-height: 400px;
+
+  object-fit: contain;
 }
 .img1{
-  height: 40vh !important;
+  height: 100% !important;
   width: 100% !important;
 }
 .page-navbar .nav-navbar .nav-link img {
