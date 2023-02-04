@@ -329,8 +329,9 @@ body {
   background-color: #1b1a1a;
 }
 .awards-container {
-  background-color: #353333;
-}
+    background: rgb(33,33,33);
+    background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(40,40,40,1) 100%);
+  }
 .awards-container .col {
   color: white;
   padding: 20px 0;

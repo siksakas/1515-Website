@@ -315,15 +315,9 @@ body {
   height: 400px;
   width: 100%;
 }
-
-.first {
-  background-color: #f0882c;
-}
-.second {
-  background-color: #f0742c;
-}
-.third {
-  background-color: #f0602c;
+.container-fluid{
+  background: rgb(33,33,33);
+  background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(40,40,40,1) 100%);
 }
 .no-padding {
   padding: 0 !important;
